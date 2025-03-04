@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Officina Meccanica D'Asaro Alfonso - Specializzati nella manutenzione e riparazione di autovetture a Sciacca. Servizi di qualità dal 2001.">
+  <meta name="keywords" content="officina meccanica, riparazione auto, manutenzione auto, Sciacca, D'Asaro Alfonso">
+  <title>Officina Meccanica D'Asaro Alfonso</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="logo">
+        <a href="#home">
+          <img src="logo.png" alt="Logo Officina Meccanica D'Asaro Alfonso">
+        </a>
+      </div>
+      <h1>Officina Meccanica D'Asaro Alfonso</h1>
+      <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+      <nav class="nav-mobile">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#chi-siamo">Chi Siamo</a></li>
+          <li><a href="#servizi">Servizi</a></li>
+          <li><a href="#dove-siamo">Dove Siamo</a></li>
+          <li><a href="#contatti">Contatti</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Sezione Home -->
+  <section id="home" class="hero">
+    <div class="container">
+      <h2 data-aos="fade-up">Benvenuti all'officina meccanica D'Asaro Alfonso</h2>
+      <p data-aos="fade-up" data-aos-delay="200">Ci prendiamo cura della tua auto dal 2001. Affidabilità, professionalità e qualità al servizio dei nostri clienti.</p>
+      <a href="#contatti" class="btn" data-aos="fade-up" data-aos-delay="400">Contattaci</a>
+    </div>
+  </section>
+
+  <!-- Sezione Chi Siamo -->
+  <section id="chi-siamo" class="about">
+    <div class="container">
+      <h2 data-aos="fade-up">Chi Siamo</h2>
+      <p data-aos="fade-up" data-aos-delay="200">Fondata nel 2001, l'Autofficina D'Asaro, di D'Asaro Alfonso, è un punto di riferimento per la manutenzione e la riparazione di auto a Sciacca.</p>
+      <p data-aos="fade-up" data-aos-delay="400">Con attrezzature all'avanguardia, garantiamo un servizio di qualità.</p>
+      
+      <div class="carousel" data-aos="fade-up" data-aos-delay="600">
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <div class="carousel-images">
+          <img src="foto/foto1.jpg" class="active" alt="Foto 1 dell'officina">
+          <img src="foto/foto2.jpg" alt="Foto 2 dell'officina">
+          <img src="foto/foto3.jpg" alt="Foto 3 dell'officina">
+          <img src="foto/foto4.jpg" alt="Foto 4 dell'officina">
+          <img src="foto/foto5.jpg" alt="Foto 5 dell'officina">
+          <img src="foto/foto6.jpg" alt="Foto 6 dell'officina">
+          <img src="foto/foto7.jpg" alt="Foto 7 dell'officina">
+          <img src="foto/foto8.jpg" alt="Foto 8 dell'officina">
+        </div>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sezione Servizi -->
+  <section id="servizi" class="services">
+    <div class="container">
+      <h2 data-aos="fade-up">Servizi</h2>
+      <ul data-aos="fade-up" data-aos-delay="200">
+        <li><i class="fas fa-car"></i> Specializzato in autovetture Opel</li>
+        <li><i class="fas fa-tools"></i> Manutenzione ordinaria (cambio olio, filtri, freni) e straordinaria</li>
+        <li><i class="fas fa-laptop"></i> Diagnosi computerizzata multimarche</li>
+        <li><i class="fas fa-wind"></i> Ricarica aria condizionata ed igienizzazione</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Sezione Dove Siamo -->
+  <section id="dove-siamo" class="location">
+    <div class="container">
+      <h2 data-aos="fade-up">Dove Siamo</h2>
+      <p data-aos="fade-up" data-aos-delay="200">Trova la nostra officina qui:</p>
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6329.906705985179!2d13.060517975462574!3d37.50901832742497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x131a46a15d827a41%3A0xe3dd1d995eb75fe3!2sAutofficina%20D&#39;Asaro!5e0!3m2!1sit!2sit!4v1738081213885!5m2!1sit!2sit" 
+        width="100%" 
+        height="300" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade"
+        data-aos="fade-up" data-aos-delay="400">
+      </iframe>
+    </div>
+  </section>
+
+  <!-- Sezione Contatti -->
+  <section id="contatti" class="contact">
+    <div class="container">
+      <h2 data-aos="fade-up">Contatti</h2>
+      <p data-aos="fade-up" data-aos-delay="200">Per informazioni o preventivi, non esitare a contattarci:</p>
+      <ul data-aos="fade-up" data-aos-delay="400">
+        <li>📞 Telefono: 3383221250</li>
+        <li>📧 Email: alfodasaro@live.it</li>
+        <li>📍 Indirizzo: Via Antonio Segni n.118, 92019, Sciacca AG</li>
+      </ul>
+      <!-- Modifica qui: sostituisci l'URL di Formspree -->
+      <form action="https://formspree.io/f/mkgodlaq" method="POST" data-aos="fade-up" data-aos-delay="600">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="Nome" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="Email" required>
+        
+        <label for="messaggio">Messaggio:</label>
+        <textarea id="messaggio" name="Messaggio" rows="5" required></textarea>
+        
+        <!-- Campo nascosto per il reindirizzamento (opzionale) -->
+        <input type="hidden" name="_next" value="https://tuosito.com/grazie.html">
+        
+        <button type="submit" class="btn">Invia</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="social-links" data-aos="fade-up">
+        <a href="https://www.facebook.com/p/Autofficinadasaro-100054485559151/?locale=it_IT" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/alfonsodasaro/" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+      <p data-aos="fade-up" data-aos-delay="200">&copy; 2025 D'Asaro Alfonso. Tutti i diritti riservati.</p>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+
+    let currentIndex = 0;
+    const images = document.querySelectorAll(".carousel-images img");
+
+    function showSlide(index) {
+      images.forEach(img => img.classList.remove("active"));
+      images[index].classList.add("active");
+    }
+
+    function prevSlide() {
+      currentIndex = (currentIndex === 0) ? images.length - 1 : currentIndex - 1;
+      showSlide(currentIndex);
+    }
+
+    function nextSlide() {
+      currentIndex = (currentIndex === images.length - 1) ? 0 : currentIndex + 1;
+      showSlide(currentIndex);
+    }
+
+    setInterval(nextSlide, 5000); // Autoplay ogni 5 secondi
+
+    function toggleMenu() {
+      const nav = document.querySelector('nav ul');
+      nav.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
